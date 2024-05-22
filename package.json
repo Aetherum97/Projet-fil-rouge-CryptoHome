@@ -1,0 +1,15 @@
+{
+  "name": "projet-fil-rouge-cryptohome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ws --spa index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
