@@ -1,0 +1,67 @@
+label {
+    color: #B3DAF2;
+    font-weight: 700;
+}
+
+legend {
+    font-weight: 700;
+    color: #B3DAF2;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: #011526 !important;
+    border-radius: 35px !important;
+    border-color: #F28705 !important;
+    color: white !important;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #666666 !important;
+}
+
+#nav-login{
+    font-weight: 700;
+    color: #F28705;
+    background-color: #011526;
+}
+
+.button-screen-login{
+    display: flex;
+    justify-content: end;
+}
+
+.lost-mdp {
+    margin-left: 50px;
+    font-size: x-small;
+    color: #666666;
+}
+
+.btn-submit{
+    background-color: #023859 !important;
+    color: #B3DAF2 !important;
+    border-radius: 35px !important;
+    border-color: #F28705 !important;
+    font-weight: 700 !important;
+}
+
+.card {
+    border-width: 2px !important;
+    border-color: #F28705 !important;
+    border-radius: 35px !important;
+    background-color: #011526 !important;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.lost-mdp-navigation{
+    text-decoration: none;
+    color: #666666;
+}

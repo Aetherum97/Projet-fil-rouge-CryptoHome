@@ -2,3 +2,5 @@ node_modules
 .vscode
 package-lock.json
 component.html
+login.html
+signin.html
