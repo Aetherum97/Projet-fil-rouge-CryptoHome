@@ -10,7 +10,7 @@ export default class LoginComponent extends HTMLElement {
       <div class="card" style="width: 25rem">
         <div class="card-body">
           <div class="button-screen-login">
-            <button class="btn" id="nav-login">S'inscrire</button>
+            <button class="btn"><a href="/register" id="nav-login" target="spa">S'inscrire</a></button>
           </div>
           <legend>Connexion</legend>
           <form>

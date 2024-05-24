@@ -4,6 +4,5 @@ export default class Screen extends HTMLElement {
     super();
     this.prop = {};
     this.innerHTML = this.render();
-    
   }
 }

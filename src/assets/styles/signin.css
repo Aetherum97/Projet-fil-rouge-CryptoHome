@@ -34,12 +34,6 @@ input::placeholder {
     justify-content: end;
 }
 
-span.lost-mdp {
-    margin-left: 50px;
-    font-size: x-small;
-    color: #666666;
-}
-
 button.btn-submit{
     background-color: #023859;
     color: #B3DAF2;
@@ -63,7 +57,7 @@ div.card {
 }
 
 .lost-mdp-navigation{
-    font-size: x-small;
+    font-size: small;
     text-decoration: none;
     color: #666666;
 }
