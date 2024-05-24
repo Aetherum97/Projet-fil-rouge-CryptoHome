@@ -7,7 +7,7 @@ export default class RegisterComponent extends Screen {
   }
 
   render() {
-    return `<style> @import"./src/assets/styles/signin.css"</style>
+    return `<style> @import"./src/assets/styles/loginPageStyle/signin.css"</style>
         <div class="container-form">
         <div class="card" style="width: 40rem">
         <div class="card-body">
@@ -49,10 +49,9 @@ export default class RegisterComponent extends Screen {
                 id="exampleInputPassword1"
                 placeholder="Saisissez votre mot de passe..."/>
             </div>
-            <div class="text-center mb-3">
-                <a href="#" class="lost-mdp-navigation"
-                >Le mot de passe doit être composé à la fois de lettres et de
-                chiffres et contenir au moins 8 caractères</a>
+            <div class="text-center mb-3 lost-mdp">
+                Le mot de passe doit être composé à la fois de lettres et de
+                chiffres et contenir au moins 8 caractères
             </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-submit text-center">Connexion</button>

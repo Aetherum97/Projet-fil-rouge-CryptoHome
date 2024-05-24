@@ -5,7 +5,7 @@ export default class LoginComponent extends HTMLElement {
   }
 
   render() {
-    return `<style>@import "./src/assets/styles/login.css"</style>
+    return `<style>@import "./src/assets/styles/loginPageStyle/login.css"</style>
         <div class="container-form">
       <div class="card" style="width: 25rem">
         <div class="card-body">
