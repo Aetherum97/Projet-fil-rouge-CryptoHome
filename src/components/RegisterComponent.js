@@ -9,7 +9,7 @@ export default class RegisterComponent extends Screen {
   render() {
     return `<style> @import"./src/assets/styles/loginPageStyle/signin.css"</style>
         <div class="container-form">
-        <div class="card" style="width: 40rem">
+        <div class="card" >
         <div class="card-body">
             <div class="button-screen-login">
             <button class="btn"><a href="/login" id="nav-login" target="spa">Connexion</a></button>

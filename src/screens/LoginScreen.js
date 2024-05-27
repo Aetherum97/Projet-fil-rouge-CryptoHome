@@ -2,6 +2,7 @@ import LoginComponent from "../components/LoginComponents.js";
 import AccountService from "../services/AccountService.js";
 import Screen from "./Screen.js";
 import App from "../scripts/App.js";
+import LoginService from "../services/LoginService.js";
 
 export default class LoginScreen extends Screen {
   constructor() {
@@ -28,6 +29,7 @@ export default class LoginScreen extends Screen {
     }
     const currentUser = accounts.pop();
     if (currentUser.password === entries.loginPassword) {
+      LoginService.login(currentUser);
       alert("Connecté !");
       history.pushState(null, null, "/");
       App.instance.router.navigate();
@@ -43,6 +45,9 @@ export default class LoginScreen extends Screen {
 
   render() {
     return `
+      <header>
+        <navbar-component/>
+      </header>
         <login-component/>
         `;
   }

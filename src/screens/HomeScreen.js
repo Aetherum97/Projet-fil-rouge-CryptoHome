@@ -3,7 +3,10 @@ import Screen from "./Screen.js";
 export default class HomeScreen extends Screen {
   render() {
     return `
-        <h1>Home</h1>
+    <header>
+      <navbar-component/>
+    </header>
+    <h1>Home en cours de création...</h1>
         `;
   }
 }

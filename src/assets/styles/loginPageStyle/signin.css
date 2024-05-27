@@ -63,13 +63,14 @@ div.card {
     border-color: #F28705 ;
     border-radius: 35px;
     background-color: #011526;
+    width: 40rem;
 }
 
 .container-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
+    margin-top: 8rem;
 }
 
 .lost-mdp{

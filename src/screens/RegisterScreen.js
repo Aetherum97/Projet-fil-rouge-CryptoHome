@@ -1,6 +1,7 @@
 import RegisterComponent from "../components/RegisterComponent.js";
 import AccountService from "../services/AccountService.js";
 import Screen from "./Screen.js";
+import App from "../scripts/App.js";
 
 export default class RegisterScreen extends Screen {
   constructor() {
@@ -36,13 +37,18 @@ export default class RegisterScreen extends Screen {
       }, 2000);
       return;
     }
-    alert('Compte crée');
+    alert("Compte crée !");
     const newAccountService = new AccountService();
     newAccountService.create(entries);
+    history.pushState(null, null, "/login");
+    App.instance.router.navigate();
   };
 
   render() {
     return `
+    <header>
+      <navbar-component/>
+    </header>
         <register-component/>
         `;
   }
