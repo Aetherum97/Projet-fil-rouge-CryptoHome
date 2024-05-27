@@ -29,6 +29,22 @@ input::placeholder {
     text-decoration: none;
 }
 
+#passwordRegister{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-bottom: 10px;
+}
+
+#accountControlRegister{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-bottom: 10px;
+}
+
 .button-screen-login{
     display: flex;
     justify-content: end;

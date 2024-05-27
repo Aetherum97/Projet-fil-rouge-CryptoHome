@@ -1,4 +1,4 @@
-import Screen from "../models/Screen.js";
+import Screen from "../screens/Screen.js";
 
 export default class RegisterComponent extends Screen {
   constructor() {
@@ -15,11 +15,13 @@ export default class RegisterComponent extends Screen {
             <button class="btn"><a href="/login" id="nav-login" target="spa">Connexion</a></button>
             </div>
             <legend>Création de compte</legend>
+            <span id="accountControlRegister"></span>
             <form>
             <div class="mb-3">
                 <label class="form-label">Nom :</label>
                 <input
                 type="text"
+                name="lastName"
                 class="form-control"
                 aria-describedby="lastNameHelp"
                 placeholder="Saisissez votre nom..."/>
@@ -28,6 +30,7 @@ export default class RegisterComponent extends Screen {
                 <label class="form-label">Prénom :</label>
                 <input
                 type="text"
+                name="firstName"
                 class="form-control"
                 aria-describedby="first-nameHelp"
                 placeholder="Saisissez votre prénom..."/>
@@ -36,6 +39,7 @@ export default class RegisterComponent extends Screen {
                 <label class="form-label">E-mail :</label>
                 <input
                 type="text"
+                name="email"
                 class="form-control"
                 aria-describedby="emailHelp"
                 placeholder="Saisissez votre e-mail..."/>
@@ -43,8 +47,10 @@ export default class RegisterComponent extends Screen {
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label"
                 >Mot de passe :</label>
+                <span id="passwordRegister"></span>
                 <input
                 type="password"
+                name="password"
                 class="form-control"
                 id="exampleInputPassword1"
                 placeholder="Saisissez votre mot de passe..."/>

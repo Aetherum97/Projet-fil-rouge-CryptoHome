@@ -1,4 +1,4 @@
-import Screen from "../models/Screen.js";
+import Screen from "./Screen.js";
 
 export default class NotfoundScreen extends Screen {
   render() {

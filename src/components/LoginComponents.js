@@ -14,10 +14,12 @@ export default class LoginComponent extends HTMLElement {
           </div>
           <legend>Connexion</legend>
           <form>
+          <span id="controlLoginAccount"></span>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">E-mail :</label>
               <input
                 type="email"
+                name="email"
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
@@ -28,6 +30,7 @@ export default class LoginComponent extends HTMLElement {
               <span class="lost-mdp"><a href="#" class="lost-mdp-navigation">Vous avez oubliez votre mot de passe ?</a></span>
               <input
                 type="password"
+                name="loginPassword"
                 class="form-control"
                 id="exampleInputPassword1"
                 placeholder="Saisissez votre mot de passe..."/>
