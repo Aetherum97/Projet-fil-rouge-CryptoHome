@@ -1,12 +1,22 @@
+import HomeButtonComponent from "../components/HomeButtonComponent.js";
 import Screen from "./Screen.js";
 
 export default class HomeScreen extends Screen {
+  constructor(){
+    super();
+    this.prop.homeButtonComponent = new HomeButtonComponent();
+  }
   render() {
     return `
     <header>
       <navbar-component/>
     </header>
-    <h1>Home en cours de création...</h1>
+    <div class="container text-center mt-3">
+      <h1>Crypto-Home</h1>
+      <div>
+      <homeButton-component></homeButton-component>
+      </div>
+    </div>
         `;
   }
 }

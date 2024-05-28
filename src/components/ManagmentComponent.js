@@ -9,7 +9,7 @@ export default class ManagmentComponent extends HTMLElement {
 
   handleDeleteAccountSubmit(e) {
     e.preventDefault();
-    alert('Le compte a bien été supprimer !');
+    alert('Le compte a bien été supprimé !');
     LoginService.deleteAccount();
     history.pushState(null, null, "/login");
     App.instance.router.navigate();
