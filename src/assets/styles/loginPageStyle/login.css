@@ -19,7 +19,7 @@ input.form-control {
 
 input::placeholder {
     text-align: center;
-    color: #666666 !important;
+    color: #bbbbbb !important;
 }
 
 #controlLoginAccount {
@@ -44,7 +44,7 @@ input::placeholder {
 span.lost-mdp {
     margin-left: 50px;
     font-size: x-small;
-    color: #666666;
+    color: #bbbbbb;
 }
 
 button.btn-submit{
@@ -72,5 +72,5 @@ div.card {
 .lost-mdp-navigation{
     font-size: x-small;
     text-decoration: none;
-    color: #666666;
+    color: #bbbbbb;
 }

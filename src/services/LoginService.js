@@ -15,4 +15,8 @@ export default class LoginService {
   static isAuthenticated() {
     return localStorage.getItem("currentUser") !== null;
   }
+
+  static deleteAccount(){
+    return localStorage.clear();
+  }
 }

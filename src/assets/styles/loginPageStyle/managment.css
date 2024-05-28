@@ -22,27 +22,11 @@ input::placeholder {
     color: #bbbbbb !important;
 }
 
-#nav-login{
+#delete-account{
     font-weight: 700;
-    color: #F28705;
+    color: red;
     background-color: #011526;
     text-decoration: none;
-}
-
-#passwordRegister{
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    color: red;
-    margin-bottom: 10px;
-}
-
-#accountControlRegister{
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    color: red;
-    margin-bottom: 10px;
 }
 
 .button-screen-login{
