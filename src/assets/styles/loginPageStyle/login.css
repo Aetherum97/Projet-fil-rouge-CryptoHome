@@ -1,0 +1,76 @@
+label {
+    color: #B3DAF2;
+    font-weight: 700;
+}
+
+legend {
+    font-weight: 700;
+    color: #B3DAF2;
+    display: flex;
+    justify-content: center;
+}
+
+input.form-control {
+    background-color: #011526 ;
+    border-radius: 35px;
+    border-color: #F28705;
+    color: white;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #bbbbbb !important;
+}
+
+#controlLoginAccount {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+#nav-login{
+    font-weight: 700;
+    color: #F28705;
+    background-color: #011526;
+    text-decoration: none;
+}
+
+.button-screen-login{
+    display: flex;
+    justify-content: end;
+}
+
+span.lost-mdp {
+    margin-left: 50px;
+    font-size: x-small;
+    color: #bbbbbb;
+}
+
+button.btn-submit{
+    background-color: #023859;
+    color: #B3DAF2;
+    border-radius: 35px;
+    border-color: #F28705;
+    font-weight: 700;
+}
+
+div.card {
+    border-width: 2.5px;
+    border-color: #F28705 ;
+    border-radius: 35px;
+    background-color: #011526;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.lost-mdp-navigation{
+    font-size: x-small;
+    text-decoration: none;
+    color: #bbbbbb;
+}

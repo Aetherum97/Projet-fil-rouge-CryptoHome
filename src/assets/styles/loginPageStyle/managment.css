@@ -1,0 +1,64 @@
+label {
+    color: #B3DAF2;
+    font-weight: 700;
+}
+
+legend {
+    font-weight: 700;
+    color: #B3DAF2;
+    display: flex;
+    justify-content: center;
+}
+
+input.form-control {
+    background-color: #011526 ;
+    border-radius: 35px;
+    border-color: #F28705;
+    color: white;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #bbbbbb !important;
+}
+
+#delete-account{
+    font-weight: 700;
+    color: red;
+    background-color: #011526;
+    text-decoration: none;
+}
+
+.button-screen-login{
+    display: flex;
+    justify-content: end;
+}
+
+button.btn-submit{
+    background-color: #023859;
+    color: #B3DAF2;
+    border-radius: 35px;
+    border-color: #F28705;
+    font-weight: 700;
+}
+
+div.card {
+    border-width: 2.5px;
+    border-color: #F28705 ;
+    border-radius: 35px;
+    background-color: #011526;
+    width: 40rem;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.lost-mdp{
+    font-size: small;
+    text-decoration: none;
+    color: #bbbbbb;
+}
