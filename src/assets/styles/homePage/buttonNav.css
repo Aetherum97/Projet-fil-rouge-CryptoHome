@@ -1,0 +1,12 @@
+.btn.btn-home {
+  background-color: #b3daf2;
+  border-color: black;
+  margin: 2rem;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #011526;
+  font-weight: 600;
+}

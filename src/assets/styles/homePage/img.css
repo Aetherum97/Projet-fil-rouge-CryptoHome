@@ -1,0 +1,10 @@
+.divImageWallet {
+  display: flex;
+  justify-content: center;
+}
+
+img.screenWallet {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+}
