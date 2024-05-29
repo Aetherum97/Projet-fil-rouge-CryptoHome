@@ -12,6 +12,9 @@ export default class ManagmentScreen extends Screen {
         <navbar-component/>
       </header>
       <managment-component/>
+    <footer>
+      <footerdesktop-component/>
+    </footer>
     `;
   }
 }

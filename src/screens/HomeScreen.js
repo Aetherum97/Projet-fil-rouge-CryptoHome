@@ -38,11 +38,12 @@ export default class HomeScreen extends Screen {
           <iframe
       src="https://www.widgets.investing.com/top-cryptocurrencies?theme=darkTheme"
       width="100%"
-      height="250px"
+      height="460px"
       frameborder="0"
       allowtransparency="true"
       marginwidth="0"
       marginheight="0"
+      class="rounded-2"
     ></iframe>
         </div>
         <div>
@@ -57,7 +58,10 @@ export default class HomeScreen extends Screen {
     <div class="divImageWallet">
       <img src="./src/assets/img/homepage/ecran wallet.png" alt="image wallet" srcset="" class="screenWallet">
     </div>
-        `;
+    <footer>
+      <footerdesktop-component/>
+    </footer>
+      `;
   }
 }
 customElements.define("home-screen", HomeScreen);

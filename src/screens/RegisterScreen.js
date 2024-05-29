@@ -50,6 +50,9 @@ export default class RegisterScreen extends Screen {
       <navbar-component/>
     </header>
         <register-component/>
+      <footer>
+        <footerdesktop-component/>
+      </footer>
         `;
   }
 }

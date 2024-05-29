@@ -49,6 +49,9 @@ export default class LoginScreen extends Screen {
         <navbar-component/>
       </header>
         <login-component/>
+    <footer>
+      <footerdesktop-component/>
+    </footer>
         `;
   }
 }

@@ -7,6 +7,9 @@ export default class WalletScreen extends Screen {
       <navbar-component/>
     </header>
     <h1>Wallet en cours de création...</h1>
+    <footer>
+      <footerdesktop-component/>
+    </footer>
         `;
   }
 }

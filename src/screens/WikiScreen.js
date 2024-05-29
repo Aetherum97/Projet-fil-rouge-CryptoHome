@@ -7,6 +7,9 @@ export default class WikiScreen extends Screen {
       <navbar-component/>
     </header>
     <h1>Wiki en cours de création...</h1>
+    <footer>
+      <footerdesktop-component/>
+    </footer>
         `;
   }
 }
