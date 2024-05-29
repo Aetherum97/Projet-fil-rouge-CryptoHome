@@ -1,9 +1,15 @@
-import Screen from "../models/Screen.js";
+import Screen from "./Screen.js";
 
 export default class ChartScreen extends Screen {
   render() {
     return `
-        <h1>Chart</h1>
+        <header>
+          <navbar-component/>
+        </header>
+        <h1>Chart en cours de création...</h1>
+        <footer>
+          <footerdesktop-component/>
+        </footer>
         `;
   }
 }

@@ -1,7 +1,9 @@
 import ChartScreen from "../screens/ChartScreen.js";
 import HomeScreen from "../screens/HomeScreen.js";
 import LoginScreen from "../screens/LoginScreen.js";
+import ManagmentScreen from "../screens/ManagmentScreen.js";
 import NotfoundScreen from "../screens/NotfoundScreen.js";
+import RegisterScreen from "../screens/RegisterScreen.js";
 import WalletScreen from "../screens/WalletScreen.js";
 import WikiScreen from "../screens/WikiScreen.js";
 import App from "./App.js";
@@ -37,7 +39,13 @@ export default class Router {
       this.#screen = new LoginScreen();
     } else if (location.pathname == "/wallet") {
       this.#screen = new WalletScreen();
-    } else {
+    } else if (location.pathname == "/register") {
+      this.#screen = new RegisterScreen();
+    } 
+    else if (location.pathname == "/managment") {
+      this.#screen = new ManagmentScreen();
+    }
+    else {
       this.#screen = new NotfoundScreen();
     }
     App.instance.render();
