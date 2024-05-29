@@ -7,6 +7,9 @@ export default class ChartScreen extends Screen {
           <navbar-component/>
         </header>
         <h1>Chart en cours de création...</h1>
+        <footer>
+          <footerdesktop-component/>
+        </footer>
         `;
   }
 }

@@ -22,9 +22,10 @@ export default class HomeButtonComponent extends HTMLElement {
 
   render() {
     return  `<style>@import"./src/assets/styles/homePage/buttonNav.css"</style>
-    <button class="btn btn-home"role="button">
-    <a href=${this.toPath} target="spa">${this.textBtn}</a>
-    </button>
+    <a href=${this.toPath} target="spa"><button class="btn btn-home"role="button">
+    ${this.textBtn}
+    </button></a>
+    
     `;
   }
 }
