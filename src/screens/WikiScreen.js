@@ -2,7 +2,7 @@ import WikiComponent from "../components/WikiComponent.js";
 import CarouselWikiComponent from "../components/CarouselWikiComponent.js";
 import CardWikiComponent from "../components/CardWikiComponent.js";
 
-import Screen from "../models/Screen.js";
+import Screen from "./Screen.js";
 
 export default class WikiScreen extends Screen {
   constructor(){
