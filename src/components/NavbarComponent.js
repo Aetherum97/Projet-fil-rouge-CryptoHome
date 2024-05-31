@@ -14,7 +14,7 @@ export default class NavbarComponent extends HTMLElement {
   render() {
     const userConnected = LoginService.getCurrentUser();
     this.innerHTML = `<style>@import"./src/assets/styles/navbar/navbar.css"</style>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top desktop">
     <div class="container-fluid nav-content">
       <a class="navbar-brand" href="/" target="spa">
         <img

@@ -14,6 +14,14 @@ export default class ManagmentScreen extends Screen {
       <div>
         <managment-component/>
       </div>
+      <footer>
+        <div>
+          <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
+      </footer>
     `;
   }
 }

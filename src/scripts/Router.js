@@ -41,11 +41,9 @@ export default class Router {
       this.#screen = new WalletScreen();
     } else if (location.pathname == "/register") {
       this.#screen = new RegisterScreen();
-    } 
-    else if (location.pathname == "/managment") {
+    } else if (location.pathname == "/managment") {
       this.#screen = new ManagmentScreen();
-    }
-    else {
+    } else {
       this.#screen = new NotfoundScreen();
     }
     App.instance.render();

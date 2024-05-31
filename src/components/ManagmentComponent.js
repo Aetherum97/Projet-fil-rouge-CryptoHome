@@ -18,7 +18,7 @@ export default class ManagmentComponent extends HTMLElement {
   render() {
     const showInfoCurrentUser = LoginService.getCurrentUser();
     this.innerHTML = `<style>@import "./src/assets/styles/loginPageStyle/managment.css"</style>
-    <div class="container-form">
+    <div class="container-form ">
       <div class="card">
         <div class="card-body">
           <div class="button-screen-login">
