@@ -97,6 +97,11 @@ export default class FooterMobileComponent extends HTMLElement {
         </nav>
     </div>
     `;
+    const logOutBtn = this.querySelector("#logOut");
+    if (logOutBtn) {
+      logOutBtn.addEventListener("click", this.handleLogoutSubmit);
+    }
   }
+  
 }
 customElements.define("footermobile-component", FooterMobileComponent);
