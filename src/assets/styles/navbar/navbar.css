@@ -10,25 +10,6 @@ img{
     position: relative;
 }
 
-.nav-link:hover {
-    border-bottom: 1px solid #F28705;
-}
-
-.nav-link::after {
-    content: '';
-    opacity: 0;
-    transition: all 0.3s;
-    height: 2px;
-    width: 100%;
-    background-color: #F28705;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.nav-link:hover::after {
-    opacity: 1;
-}
 
 a.nav-link {
     font-size: 22px;
@@ -46,7 +27,27 @@ div.container-fluid.nav-content {
 }
 
 @media screen and (max-width: 767px) {
-    nav.navbar {
+    nav.navbar.desktop {
         display: none;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .nav-link:hover {
+        border-bottom: 1px solid #F28705;
+    }
+    .nav-link::after {
+        content: '';
+        opacity: 0;
+        transition: all 0.3s;
+        height: 2px;
+        width: 100%;
+        background-color: #F28705;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .nav-link:hover::after {
+        opacity: 1;
     }
 }

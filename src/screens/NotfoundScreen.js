@@ -9,9 +9,6 @@ export default class NotfoundScreen extends Screen {
         <a href="/" target="spa">Page d'accueil</a>
       </div>
     </div>
-    <footer>
-      <footerdesktop-component/>
-    </footer>
         `;
   }
 }

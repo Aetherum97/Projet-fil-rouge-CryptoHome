@@ -8,7 +8,12 @@ export default class ChartScreen extends Screen {
         </header>
         <h1>Chart en cours de création...</h1>
         <footer>
+        <div>
           <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
         </footer>
         `;
   }

@@ -59,7 +59,12 @@ export default class HomeScreen extends Screen {
       <img src="./src/assets/img/homepage/ecran wallet.png" alt="image wallet" srcset="" class="screenWallet">
     </div>
     <footer>
-      <footerdesktop-component/>
+        <div>
+          <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
     </footer>
       `;
   }

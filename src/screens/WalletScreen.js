@@ -16,7 +16,12 @@ export default class WalletScreen extends Screen {
       <orangeline-component/>
     </div>
     <footer>
-      <footerdesktop-component/>
+        <div>
+          <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
     </footer>
         `;
   }
