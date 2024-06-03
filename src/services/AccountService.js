@@ -11,8 +11,6 @@ export default class AccountService extends Service {
     }
   }
 
-  // Methode CRUD
-
   create(instance) {
     //setItem
     this.data.push(new Account(instance));

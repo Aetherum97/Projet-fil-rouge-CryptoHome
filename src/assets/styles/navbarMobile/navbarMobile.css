@@ -38,7 +38,7 @@ a.nav-link.mobile {
 }
 
 .active {
-  color: #000000;
+  color: #9b9b9bbb !important;
 }
 
 @media screen and (max-width: 425px) {

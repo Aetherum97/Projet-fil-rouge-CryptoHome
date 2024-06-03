@@ -20,7 +20,8 @@ export default class NavbarComponent extends HTMLElement {
         <img
           src="./src/assets/img/navbar/logo.png"
           alt="logo navbar"
-          srcset=""/>
+          srcset=""
+          class="img-logo"/>
           </a>
       <div class="container" id="navbarNav">
         <ul class="navbar-nav justify-content-around">

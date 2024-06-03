@@ -1,6 +1,4 @@
-body {
-  height: 100vh;
-}
+
 .slider {
   height: auto;
   margin: auto;
@@ -45,11 +43,35 @@ body {
   width: 250px;
 }
 
+.img-slide {
+  width: 112px;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(calc(-250px * 10));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider .slide {
+    height: 112px;
+    width: 120px;
+  }
+
+  .img-slide {
+    width: 80px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-120px * 10));
+    }
   }
 }
