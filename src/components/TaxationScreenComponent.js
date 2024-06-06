@@ -1,4 +1,4 @@
-import { Tabulator } from 'https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator_esm.min.js';
+import {TabulatorFull as Tabulator } from 'https://unpkg.com/tabulator-tables@6.2.1/dist/js/tabulator_esm.min.js';
 
 export default class TaxationScreenComponent extends HTMLElement {
   constructor() {
@@ -46,7 +46,7 @@ export default class TaxationScreenComponent extends HTMLElement {
       data: this.tableData,
       columns: [
         { title: "Nom Crypto", field: "nomCrypto", sorter: "string" },
-        { title: "Date", field: "date", sorter: "date" },
+        { title: "Date", field: "date", sorter: "string" },
         { title: "Montant €", field: "montantEur", sorter: "number" },
         { title: "Prix crypto", field: "prixCrypto", sorter: "number" },
         { title: "Quantité crypto", field: "quantitéCrypto", sorter: "number" },
