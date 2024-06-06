@@ -6,6 +6,9 @@ import NotfoundScreen from "../screens/NotfoundScreen.js";
 import RegisterScreen from "../screens/RegisterScreen.js";
 import WalletScreen from "../screens/WalletScreen.js";
 import WikiScreen from "../screens/WikiScreen.js";
+import BitcoinWikiScreen from "../screens/BitcoinWikiScreen.js";
+import EthereumWikiScreen from "../screens/EthereumWikiScreen.js";
+import SolanaWikiScreen from "../screens/SolanaWikiScreen.js";
 import App from "./App.js";
 
 export default class Router {
@@ -35,17 +38,21 @@ export default class Router {
       this.#screen = new ChartScreen();
     } else if (location.pathname == "/wiki") {
       this.#screen = new WikiScreen();
+    } else if (location.pathname == "/bitcoin") {
+      this.#screen = new BitcoinWikiScreen();
+    } else if (location.pathname == "/ethereum") {
+      this.#screen = new EthereumWikiScreen();
+    } else if (location.pathname == "/solana") {
+      this.#screen = new SolanaWikiScreen();
     } else if (location.pathname == "/login") {
       this.#screen = new LoginScreen();
     } else if (location.pathname == "/wallet") {
       this.#screen = new WalletScreen();
     } else if (location.pathname == "/register") {
       this.#screen = new RegisterScreen();
-    } 
-    else if (location.pathname == "/managment") {
+    } else if (location.pathname == "/managment") {
       this.#screen = new ManagmentScreen();
-    }
-    else {
+    } else {
       this.#screen = new NotfoundScreen();
     }
     App.instance.render();
