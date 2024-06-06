@@ -1,0 +1,110 @@
+select.form-select {
+  background-color: #011526;
+  border-radius: 35px;
+  border-color: #f28705;
+}
+
+.text-invest {
+  color: #f28705;
+  font-weight: 600;
+}
+
+.screenFisc {
+  padding-bottom: 200px;
+}
+
+#amountEur {
+  border-color: #f28705;
+  border-radius: 35px;
+  background-color: #011526;
+  color: white;
+}
+
+#priceCrypto{
+  border-radius: 35px;
+  border-color: #f28705;
+  background-color: #011526;
+  color: white;
+}
+
+#priceCrypto::placeholder{
+  color: white;
+  font-weight: 600;
+}
+
+#amountEur::placeholder {
+  color: white;
+  font-weight: 600;
+}
+
+#dateInput{
+  border-radius: 35px 0 0 35px;
+  background-color: #011526;
+  border-color: #f28705;
+  color: white;
+  font-weight: 600;
+  color-scheme: dark;
+}
+
+button.btn-outline-secondary{
+  color: #f28705;
+  border-radius: 0 35px 35px 0;
+  border-color: #f28705;
+}
+
+button.btn-outline-secondary:hover {
+  background-color: #023859;
+  color: #f28705;
+}
+
+#new-table {
+  background-color: #023859;
+  border-radius: 5px;
+}
+
+th{
+  color: white;
+}
+
+label{
+  padding: 10px;
+  color: white;
+}
+
+#myTable_previous{
+  color: white !important;
+}
+
+#myTable_next{
+  color: white !important;
+}
+
+#myTable_info{
+  padding: 10px !important;
+  color: white !important;
+}
+
+#myTable_length{
+  color: white !important;
+}
+
+select{
+  color: white !important;
+}
+
+
+div#example-table {
+  border-radius: 10px;
+  background-color: #011526;
+  border: 2px solid #f28705;
+}
+
+div.tabulator-col-content{
+  color: #011526;
+}
+
+div.tabulator-row {
+  font-weight: 600;
+  color: white;
+  background-color: #011526 !important;
+}
