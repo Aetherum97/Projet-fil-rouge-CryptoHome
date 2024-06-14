@@ -2,93 +2,13 @@ import Screen from "./Screen.js";
 
 export default class WalletScreen extends Screen {
   render() {
-    return `
+    return `<style>@import "./src/assets/styles/wallet/adresses.css"</style>
     <header>
-      <navbar-component/>
+		<navbar-component/>
     </header>
 
-
-    <div>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	  <style>
-		body {
-			background-color: #011526;
-		}
-
-		label {
-			color: #B3DAF2;
-			font-weight: 700;
-		}
-
-		legend {
-			font-weight: 700;
-			color: #B3DAF2;
-			display: flex;
-			justify-content: center;
-		}
-
-		input.form-control {
-			background-color: #011526;
-			border-radius: 35px;
-			border-color: #F28705;
-			color: white;
-		}
-
-		input::placeholder {
-			text-align: center;
-			color: #bbbbbb !important;
-		}
-
-		.controlButtons {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.btn-edit,
-		.btn-lock {
-			margin-left: 10px;
-		}
-
-		.btn-edit {
-			background-color: #28a745;
-			color: white;
-		}
-
-		.btn-lock {
-			background-color: #dc3545;
-			color: white;
-		}
-
-		.container-form {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-top: 10rem;
-		}
-
-		div.card {
-			border-width: 2.5px;
-			border-color: #F28705;
-			border-radius: 35px;
-			background-color: #011526;
-		}
-
-		.card-body {
-			padding: 2rem;
-		}
-
-		.btn-submit {
-			background-color: #023859;
-			color: #B3DAF2;
-			border-radius: 35px;
-			border-color: #F28705;
-			font-weight: 700;
-		}
-	</style>
+<div>
 </head>
-
 <body>
 	<div class="container-form">
 		<div class="card" style="width: 55rem">
@@ -171,7 +91,7 @@ export default class WalletScreen extends Screen {
 
 
     <footer>
-      <footerdesktop-component/>
+		<footerdesktop-component/>
     </footer>
         `;
   }

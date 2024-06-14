@@ -8,44 +8,17 @@ export default class SolanaWikiScreen extends Screen {
   }
 
   render() {
-    return `
+    return `<style>@import "./src/assets/styles/wikiStyle/wikisCryptosPages.css"</style>
     <header>
-      <navbar-component/>
+        <navbar-component/>
     </header>
 
-    <div>
-
-    <style>
-        body {
-            background-color: #333;
-            color: white;
-            font-size: 1.1rem;
-            line-height: 1.6;
-        }
-        .content-section {
-            margin-bottom: 2rem;
-        }
-        .content-section img,
-        .content-section .carousel {
-            float: right;
-            margin: 0 0 1rem 1rem;
-            max-width: 45%;
-        }
-        .content-section p {
-            text-align: justify;
-        }
-        h1 {
-            font-weight: 700;
-        }
-        h2 {
-            font-weight: bold;
-        }
-    </style>
+<div>
 </head>
 <body>
     <div class="container">
-        <h1 class="my-4">Solana 
-            <img src="./src/assets/img/dock-wiki-icon/solana.svg" alt="sol" draggable="false" width="50" height="50"> 
+        <h1 class="my-4">Solana
+            <img src="./src/assets/img/dock-wiki-icon/solana.svg" alt="sol" draggable="false" width="50" height="50">
             - Une blockchain rapide
         </h1>
 
@@ -58,13 +31,13 @@ export default class SolanaWikiScreen extends Screen {
             <div class="collapse show" id="section1">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 1" class="img-fluid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula 
-                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula
+                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum
                     metus, a tincidunt massa ultricies in.
-                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis 
-                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit? 
-                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
+                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis
+                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit?
+                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
                 <p>
@@ -96,12 +69,12 @@ export default class SolanaWikiScreen extends Screen {
             <div class="collapse show" id="section3">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam, 
-                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae 
-                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis 
-                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit? 
-                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam,
+                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae
+                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis
+                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit?
+                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
             </div>
@@ -116,15 +89,15 @@ export default class SolanaWikiScreen extends Screen {
             <div class="collapse" id="section4">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam, 
-                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae 
-                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula 
-                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam,
+                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae
+                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula
+                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum
                     metus, a tincidunt massa ultricies in.
-                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis 
-                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit? 
-                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
+                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis
+                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit?
+                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
             </div>
@@ -140,9 +113,9 @@ export default class SolanaWikiScreen extends Screen {
     <div>
     <orangeline-component/>
     </div>
-    
+
     <footer>
-      <footerdesktop-component/>
+        <footerdesktop-component/>
     </footer>
 	`;
   }

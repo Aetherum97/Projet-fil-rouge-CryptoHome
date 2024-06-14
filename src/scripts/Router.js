@@ -8,7 +8,15 @@ import WalletScreen from "../screens/WalletScreen.js";
 import WikiScreen from "../screens/WikiScreen.js";
 import BitcoinWikiScreen from "../screens/BitcoinWikiScreen.js";
 import EthereumWikiScreen from "../screens/EthereumWikiScreen.js";
+import TetherWikiScreen from "../screens/TetherWikiScreen.js";
+import BnbWikiScreen from "../screens/BnbWikiScreen.js";
 import SolanaWikiScreen from "../screens/SolanaWikiScreen.js";
+import AvalancheWikiScreen from "../screens/AvalancheWikiScreen.js";
+import PolkadotWikiScreen from "../screens/PolkadotWikiScreen.js";
+import MultiversxWikiScreen from "../screens/MultiversxWikiScreen.js";
+import ChainlinkWikiScreen from "../screens/ChainlinkWikiScreen.js";
+import DogecoinWikiScreen from "../screens/DogecoinWikiScreen.js";
+
 import App from "./App.js";
 
 export default class Router {
@@ -42,8 +50,22 @@ export default class Router {
       this.#screen = new BitcoinWikiScreen();
     } else if (location.pathname == "/ethereum") {
       this.#screen = new EthereumWikiScreen();
+    } else if (location.pathname == "/tether") {
+      this.#screen = new TetherWikiScreen();
+    } else if (location.pathname == "/bnb") {
+      this.#screen = new BnbWikiScreen();
     } else if (location.pathname == "/solana") {
       this.#screen = new SolanaWikiScreen();
+    } else if (location.pathname == "/avalanche") {
+      this.#screen = new AvalancheWikiScreen();
+    } else if (location.pathname == "/polkadot") {
+      this.#screen = new PolkadotWikiScreen();
+    } else if (location.pathname == "/multiversx") {
+      this.#screen = new MultiversxWikiScreen();
+    } else if (location.pathname == "/chainlink") {
+      this.#screen = new ChainlinkWikiScreen();
+    } else if (location.pathname == "/dogecoin") {
+      this.#screen = new DogecoinWikiScreen();
     } else if (location.pathname == "/login") {
       this.#screen = new LoginScreen();
     } else if (location.pathname == "/wallet") {

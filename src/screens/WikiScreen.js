@@ -10,7 +10,7 @@ export default class WikiScreen extends Screen {
     this.prop.dockWikiComponent = new DockWikiComponent();
   }
   render() {
-    return `<style>@import "./src/assets/styles/WikiStyle/wiki.css"</style>
+    return `<style>@import "./src/assets/styles/wikiStyle/wiki.css"</style>
 
         <header>
           <navbar-component/>
