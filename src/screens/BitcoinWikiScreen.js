@@ -13,9 +13,6 @@ export default class BitcoinWikiScreen extends Screen {
         <navbar-component/>
     </header>
 
-    <div>
-</head>
-<body>
     <div class="container">
         <h1 class="my-4">Bitcoin
             <img src="./src/assets/img/dock-wiki-icon/bitcoin.svg" alt="btc" draggable="false" width="100"> 
@@ -103,16 +100,12 @@ export default class BitcoinWikiScreen extends Screen {
             </div>
         </div>
     </div>
-</body>
-</html>
-</div>
 
     <div>
         <orangeline-component/>
     </div>
 
 
-        </div>
     <footer>
         <footerdesktop-component/>
     </footer>

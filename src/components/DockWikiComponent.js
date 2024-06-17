@@ -9,7 +9,7 @@ export default class DockWikiComponent extends HTMLElement {
 
 	<div class="glass">
             <div class="dock">
-                <a href="/bitcoin" target="spa"><img src="./src/assets/img/dock-wiki-icon/bitcoin.svg" alt="btc" draggable="false" width=20px height=20px></a>
+                <a href="/bitcoin" target="spa"><img src="./src/assets/img/scroll-icon/Bitcoin.svg.webp" alt="btc" draggable="false" width=20px height=20px></a>
                 <a href="/ethereum" target="spa"><img src="./src/assets/img/dock-wiki-icon/ethereum.svg" alt="eth" draggable="false" width=20px height=20px></a>
                 <a href="/tether" target="spa"><img src="./src/assets/img/dock-wiki-icon/tether.svg" alt="tether" draggable="false" width=20px height=20px></a>
                 <a href="/bnb" target="spa"><img src="./src/assets/img/dock-wiki-icon/bnb.svg" alt="bnb" draggable="false" width=20px height=20px></a>

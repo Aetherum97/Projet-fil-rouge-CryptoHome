@@ -9,7 +9,6 @@
 	display: flex;
 	justify-content: center;
 	border-radius: 1rem;
-	/*margin-bottom: 1rem;*/
 }
 
 .dock {
@@ -52,4 +51,11 @@
 	60%{
 		transform: translateY(-30px);
 	}
+}
+
+@media screen and (max-width: 670px) {
+	.dock img {
+		width: 100%;
+	}
+
 }
