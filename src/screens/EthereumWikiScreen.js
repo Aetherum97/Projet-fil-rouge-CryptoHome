@@ -13,9 +13,6 @@ export default class EthereumWikiScreen extends Screen {
         <navbar-component/>
     </header>
 
-<div>
-</head>
-<body>
     <div class="container">
         <h1 class="my-4">Ethereum
             <img src="./src/assets/img/dock-wiki-icon/ethereum.svg" alt="sol" draggable="false" width="50" height="50"> 
@@ -104,12 +101,6 @@ export default class EthereumWikiScreen extends Screen {
                 </p>
             </div>
         </div>
-    </div>
-
-</body>
-</html>
-
-
     </div>
 
     <div>

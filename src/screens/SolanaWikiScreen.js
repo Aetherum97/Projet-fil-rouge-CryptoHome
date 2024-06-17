@@ -12,10 +12,6 @@ export default class SolanaWikiScreen extends Screen {
     <header>
         <navbar-component/>
     </header>
-
-<div>
-</head>
-<body>
     <div class="container">
         <h1 class="my-4">Solana
             <img src="./src/assets/img/dock-wiki-icon/solana.svg" alt="sol" draggable="false" width="50" height="50">
@@ -102,12 +98,6 @@ export default class SolanaWikiScreen extends Screen {
                 </p>
             </div>
         </div>
-    </div>
-
-</body>
-</html>
-
-
     </div>
 
     <div>
