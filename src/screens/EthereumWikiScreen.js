@@ -8,39 +8,12 @@ export default class EthereumWikiScreen extends Screen {
   }
 
   render() {
-    return `
+    return `<style>@import "./src/assets/styles/wikiStyle/wikisCryptosPages.css"</style>
     <header>
-      <navbar-component/>
+        <navbar-component/>
     </header>
 
-    <div>
-
-    <style>
-        body {
-            background-color: #333;
-            color: white;
-            font-size: 1.1rem;
-            line-height: 1.6;
-        }
-        .content-section {
-            margin-bottom: 2rem;
-        }
-        .content-section img,
-        .content-section .carousel {
-            float: right;
-            margin: 0 0 1rem 1rem;
-            max-width: 45%;
-        }
-        .content-section p {
-            text-align: justify;
-        }
-        h1 {
-            font-weight: 700;
-        }
-        h2 {
-            font-weight: bold;
-        }
-    </style>
+<div>
 </head>
 <body>
     <div class="container">
@@ -144,7 +117,7 @@ export default class EthereumWikiScreen extends Screen {
     </div>
 
     <footer>
-      <footerdesktop-component/>
+        <footerdesktop-component/>
     </footer>
 	`;
   }
