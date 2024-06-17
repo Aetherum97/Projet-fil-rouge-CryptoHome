@@ -44,7 +44,7 @@ export default class BitcoinWikiScreen extends Screen {
 </head>
 <body>
     <div class="container">
-        <h1 class="my-4">Bitcoin 
+        <h1 class="my-4">Bitcoin
             <img src="./src/assets/img/dock-wiki-icon/bitcoin.svg" alt="btc" draggable="false" width="100"> 
             - La première blockchain
         </h1>
