@@ -97,12 +97,13 @@ export default class BitcoinWikiScreen extends Screen {
                     Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
+                <br><br><br>
             </div>
         </div>
     </div>
 
     <div>
-        <orangeline-component/>
+    <dock-wiki-component/>
     </div>
 
 
