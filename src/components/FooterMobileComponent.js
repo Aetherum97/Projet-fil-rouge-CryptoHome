@@ -102,5 +102,6 @@ export default class FooterMobileComponent extends HTMLElement {
       logOutBtn.addEventListener("click", this.handleLogoutSubmit);
     }
   }
+  
 }
 customElements.define("footermobile-component", FooterMobileComponent);
