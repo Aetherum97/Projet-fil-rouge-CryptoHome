@@ -28,18 +28,19 @@ export default class BitcoinWikiScreen extends Screen {
             <div class="collapse show" id="section1">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 1" class="img-fluid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula 
-                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula
+                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum
                     metus, a tincidunt massa ultricies in.
-                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis 
-                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit? 
-                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
+                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis
+                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit?
+                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
                 <p>
                     Vivamus mollis semper felis, nec ultrices magna interdum nec. Phasellus nec viverra mi. Cras vestibulum, quam a aliquet ullamcorper, tortor elit sollicitudin turpis, sit amet suscipit odio ipsum a libero.
                 </p>
+                <br>
             </div>
         </div>
 
@@ -54,6 +55,7 @@ export default class BitcoinWikiScreen extends Screen {
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
+                <br><br><br>
             </div>
         </div>
 
@@ -66,14 +68,15 @@ export default class BitcoinWikiScreen extends Screen {
             <div class="collapse" id="section3">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam, 
-                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae 
-                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis 
-                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit? 
-                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam,
+                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae
+                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis
+                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit?
+                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
+                <br><br><br>
             </div>
         </div>
 
@@ -86,15 +89,15 @@ export default class BitcoinWikiScreen extends Screen {
             <div class="collapse" id="section4">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam, 
-                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae 
-                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula 
-                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis unde officia beatae nobis rem pariatur nisi enim aperiam,
+                    cupiditate repudiandae quam molestiae optio ex ea, inventore recusandae
+                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula
+                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum
                     metus, a tincidunt massa ultricies in.
-                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis 
-                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit? 
-                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
+                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis
+                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit?
+                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
                 <br><br><br>
@@ -108,8 +111,13 @@ export default class BitcoinWikiScreen extends Screen {
 
 
     <footer>
-        <footerdesktop-component/>
-    </footer>
+        <div>
+          <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
+      </footer>
 	`;
   }
 }

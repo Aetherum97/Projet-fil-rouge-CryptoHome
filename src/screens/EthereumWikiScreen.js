@@ -15,7 +15,7 @@ export default class EthereumWikiScreen extends Screen {
 
     <div class="container">
         <h1 class="my-4">Ethereum
-            <img src="./src/assets/img/dock-wiki-icon/ethereum.svg" alt="sol" draggable="false" width="50" height="50"> 
+            <img src="./src/assets/img/dock-wiki-icon/ethereum.svg" alt="sol" draggable="false" width="50" height="50">
             - Altcoin : la véritable alternative
         </h1>
 
@@ -28,20 +28,21 @@ export default class EthereumWikiScreen extends Screen {
             <div class="collapse show" id="section1">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 1" class="img-fluid">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula 
-                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin bibendum, tortor eget ullamcorper molestie, erat ligula
+                    facilisis nisl, id viverra urna odio non leo. Nullam vehicula interdum
                     metus, a tincidunt massa ultricies in.
-                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis 
-                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit? 
-                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
+                    iste minima maiores tenetur ullam maxime, earum velit. Quia, veritatis
+                    repellat sit enim cum vel consectetur accusantium ea fugiat suscipit?
+                    Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
-                    Ullam maxime, earum velit. Quia, veritatis repellat sit enim cum vel 
-                    consectetur accusantium ea fugiat suscipit? 
+                    Ullam maxime, earum velit. Quia, veritatis repellat sit enim cum vel
+                    consectetur accusantium ea fugiat suscipit?
                 </p>
                 <p>
                     Vivamus mollis semper felis, nec ultrices magna interdum nec. Phasellus nec viverra mi. Cras vestibulum, quam a aliquet ullamcorper, tortor elit sollicitudin turpis, sit amet suscipit odio ipsum a libero.
                 </p>
+                <br>
             </div>
         </div>
 
@@ -56,6 +57,7 @@ export default class EthereumWikiScreen extends Screen {
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
+                <br><br><br>
             </div>
         </div>
 
@@ -76,6 +78,7 @@ export default class EthereumWikiScreen extends Screen {
                     Accusantium voluptate amet, minus quos atque qui rerum voluptatem 
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
+                <br><br><br>
             </div>
         </div>
 
@@ -109,8 +112,13 @@ export default class EthereumWikiScreen extends Screen {
     </div>
 
     <footer>
-        <footerdesktop-component/>
-    </footer>
+        <div>
+          <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
+      </footer>
 	`;
   }
 }

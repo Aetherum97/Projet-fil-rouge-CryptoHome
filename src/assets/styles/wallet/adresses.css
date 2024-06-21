@@ -1,6 +1,4 @@
-body {
-	background-color: #011526;
-}
+
 
 label {
 	color: #B3DAF2;
@@ -51,7 +49,7 @@ input::placeholder {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 10rem;
+	margin-top: 1rem;
 }
 
 div.card {

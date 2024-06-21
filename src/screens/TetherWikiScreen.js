@@ -22,8 +22,13 @@ export default class TetherWikiScreen extends Screen {
     </div>
 
     <footer>
-        <footerdesktop-component/>
-    </footer>
+        <div>
+          <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
+      </footer>
 	`;
   }
 }

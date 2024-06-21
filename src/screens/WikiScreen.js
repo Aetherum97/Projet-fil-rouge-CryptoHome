@@ -62,8 +62,13 @@ export default class WikiScreen extends Screen {
           <dock-wiki-component/>
         </div>
         <footer>
+        <div>
           <footerdesktop-component/>
-        </footer>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
+      </footer>
           `;
   }
 }

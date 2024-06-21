@@ -1,15 +1,20 @@
+import TaxationScreenComponent from "../components/TaxationScreenComponent.js";
 import Screen from "./Screen.js";
 
 export default class WalletScreen extends Screen {
+  constructor() {
+    super();
+    this.prop = {};
+    this.innerHTML = this.render();
+    this.prop.taxationScreenComponent = new TaxationScreenComponent();
+  }
+
   render() {
     return `<style>@import "./src/assets/styles/wallet/adresses.css"</style>
     <header>
 		<navbar-component/>
     </header>
-
-<div>
-</head>
-<body>
+		<h3 class="text-white text-center mt-5">Adresses</h3>
 	<div class="container-form">
 		<div class="card" style="width: 55rem">
 			<div class="card-body">
@@ -86,12 +91,24 @@ export default class WalletScreen extends Screen {
 			});
 		});
 	</script>
-</body>
-</div>
+
+	<div>
+		<orangeline-component/>
+		</div>
+
+		<div>
+		<taxationscreen-component/>
+		</div>
+		
 
 
     <footer>
-		<footerdesktop-component/>
+        <div>
+          <footerdesktop-component/>
+        </div>
+        <div>
+          <footermobile-component/>
+        </div>
     </footer>
         `;
   }

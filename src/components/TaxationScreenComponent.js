@@ -81,7 +81,7 @@ export default class TaxationScreenComponent extends HTMLElement {
       <div class="container">
         <form class="row g-5 mt-5" id="investmentForm">
           <div class="col-12 col-md-4 col-lg-2">
-            <select class="form-select text-white" id="cryptoSelect" required>
+            <select class="form-select" id="cryptoSelect" required>
               <option value="" selected disabled>Choisis une crypto</option>
               <option value="BTC">Bitcoin</option>
               <option value="ETH">Ethereum</option>
