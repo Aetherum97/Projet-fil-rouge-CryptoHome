@@ -48,7 +48,7 @@ export default class SolanaWikiScreen extends Screen {
                     Rapidité de transactions et scalabilité
                 </a>
             </h2>
-            <div class="collapse show" id="section2">
+            <div class="collapse" id="section2">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -62,7 +62,7 @@ export default class SolanaWikiScreen extends Screen {
                     Une blockchain en surpoids
                 </a>
             </h2>
-            <div class="collapse show" id="section3">
+            <div class="collapse" id="section3">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 2" class="img-fluid">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -96,12 +96,13 @@ export default class SolanaWikiScreen extends Screen {
                     Accusantium voluptate amet, minus quos atque qui rerum voluptatem
                     blanditiis temporibus quis ad deleniti mollitia!
                 </p>
+                <br><br><br>
             </div>
         </div>
     </div>
 
     <div>
-    <orangeline-component/>
+    <dock-wiki-component/>
     </div>
 
     <footer>

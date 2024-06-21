@@ -25,7 +25,7 @@ export default class EthereumWikiScreen extends Screen {
                     Altcoin
                 </a>
             </h2>
-            <div class="collapse" id="section1">
+            <div class="collapse show" id="section1">
                 <p>
                     <img src="https://picsum.photos/300/200" alt="Image 1" class="img-fluid">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
