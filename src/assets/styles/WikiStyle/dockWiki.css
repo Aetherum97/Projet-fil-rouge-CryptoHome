@@ -57,5 +57,12 @@
 	.dock img {
 		width: 100%;
 	}
-
 }
+
+
+@media screen and (max-width: 767px) {
+	.glass {
+		margin-bottom: 4.1rem;
+	}
+}
+
